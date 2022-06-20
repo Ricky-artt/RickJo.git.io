@@ -225,7 +225,7 @@ body{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-weight: 700;
     color: #fff;
-    border: 1px solid;
+ 
 
 }
 #Contact h3{
@@ -234,11 +234,10 @@ body{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-weight: 700;
     color: #fff;
-    border: 1px solid;
+    
 }
 #Contact .socmed {
     display: flex;
-    border: 1px solid;
     justify-content: center;
     align-items: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
