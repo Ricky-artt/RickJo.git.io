@@ -5,14 +5,12 @@ html{
 body{
     
 }
-nav{
-    position: sticky;
-    top: 0px;
-}
+
 
 .navbar {
     background :#5e8fdf;
     box-shadow: 0 22px 0 14px rgba(255, 255, 255, 0.1);
+    border: 1px solid;
     
 }
 .container .navbar-brand{
@@ -204,26 +202,30 @@ nav{
     background: #2a579f;
     border-radius: 50%;
 }
-#Contact {
-    
-    margin-top: 100px;
 
-}
 #Contact .container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     border: 1px solid;
-    margin: 100px auto;
-    height: 60vh;
+    margin: 10px auto;
+    
     background: #5e8fdf;
     border-radius: 50px;
+    border: 1px solid;
 }
 .content {
-    margin-top: 100px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-weight: 700;
     color: #fff;
+    border: 1px solid;
 
 }
 #Contact h3{
@@ -232,10 +234,11 @@ nav{
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-weight: 700;
     color: #fff;
+    border: 1px solid;
 }
 #Contact .socmed {
     display: flex;
-    
+    border: 1px solid;
     justify-content: center;
     align-items: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -289,21 +292,17 @@ nav{
     background: #0e1538;
     border-radius: 10px;
 }
-#two {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+#two{
     text-align: center;
-    margin: 20px auto;
-    font-family: 'Kdam Thmor Pro', sans-serif;
     color: #fff;
-    font-size: 1.4rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 500;
 }
 footer {
-    margin-top: -50px;
+    
     display: flex;
     justify-content: center;
-    
     color: #2a579f;
 }
 @keyframes animate 
@@ -315,39 +314,55 @@ footer {
         transform: rotate(360deg);
     }  
 }
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 720px) {
+    #navbar {
+        
+        width: 100%;
+        
+    }
     .navbar-nav {
         text-align: right;
+        border: 1px solid;
         
+    }
+    .title {
+        
+    }
+    .left .container h4{
+        font-size: 1.6rem;
+
     }
     .left .container h1{
         font-size: 1.6rem;
+        
     }
     .container.section{
         margin-top: 5px;
+        
     }
     .pic img, .pic svg {
-        margin-top: 50px;
-        margin-left: 50px;
+        margin-left : -0px;
+        
     }
     #portofolio .col-lg-5{
         display: flex;
         
-
     }
     #portofolio .left-p .item {
         display: flex;
-        margin-left: 50px;
+        
+        margin-left :46px;
         flex-direction: column;
         align-items: center;
         margin-bottom: 20px;
     }
     #portofolio .right-p .item{
         display: flex;
+        
         flex-direction: column;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 30px;
+        
         margin-bottom: 20px;
     }
     .row{
@@ -363,7 +378,23 @@ footer {
     #portofolio .mid .round{
         display: none;
     }
+    #Contact .container {
+        padding: 10px;
+    }
+    
+    #Contact .container h1,h3  {
+        font-size: 1.7rem;
+    }
+    #Contact .socmed {
+        font-size: ;
+    }
+    #Contact #two{
+        font-size: 0.7rem;
+    }
+
 }
+
+    
 @keyframes mymove {
     100% {transform: rotate(360deg);}
-  }
+}
