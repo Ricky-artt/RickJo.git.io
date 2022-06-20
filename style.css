@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Poppins:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+
+.navbar {
+    background :#5e8fdf;
+    box-shadow: 0 22px 0 14px rgba(255, 255, 255, 0.1);
+    
+}
+.container .navbar-brand{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 1000;
+    color: #FFFFFF;
+    transition: 0.5s ease-in-out;
+    
+}
+.container .navbar-brand:hover{
+    color: #2a579f;
+    
+}
+.nav-item .nav-link{
+    color : #FFFFFF;
+    margin-left: 50px;
+    font-weight: 1000;
+}
+.nav-item .nav-link:hover{
+    color: #2a579f;
+    transition: 0.5s ease-in-out;
+}
+.navbar-nav {
+    font-size: 2rem;
+    text-align: right;
+    font-weight: 1000;
+    font-family: 'Oswald', sans-serif;
+}
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+#particles-js{
+    position: absolute;
+    z-index: -10;
+    top: 10%;
+    height: 90%;
+    width: 100%;
+}
+.container.section{
+    position: relative;
+    z-index: 1;
+    margin-top: 150px;
+}
+.left .container{
+    margin-top: 100px;
+    margin-left: -10px;
+   
+    width: 100%;
+}
+.left .container h1{
+    font-size: 3.0rem;
+    font-weight: 1000;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+.left .container h4{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    color: rgb(24, 38, 75);
+    opacity: 0.5;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+.left .container p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 500;
+
+}
+
+.pic img {
+    position: absolute;
+    z-index: 1;
+    margin-left: 100px  ;
+    height: 440px;
+    width: 415px;
+    
+
+}
+
+.pic svg {
+ 
+    margin-left: 100px ;
+    position: relative;
+    z-index: -1;
+
+}
+
+#CvButton{
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background: #5e8fdf;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+#CvButton:hover{
+    background : #2a579f;
+}
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  #portofolio{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+#portofolio .mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#portofolio .round {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    background: #2a579f;
+    animation: mymove 5s infinite;
+    
+}
+#portofolio .round1{
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    
+}
+#portofolio .line{
+    display: block;
+    width: 5px;
+    height: 500px;
+    background: #2a579f;
+}
+#portofolio .item{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top : 50px; 
+    cursor: pointer;
+
+}
+#portofolio .right-p .item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top : 50px; 
+    cursor: pointer;
+}
+#portofolio .right-p .item p {
+    margin-left: 20px;
+}
+.item .svg img{
+    position: relative;
+    width: 80px;
+    cursor: pointer;
+}
+.row.porto .title{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 700;
+}
+#portofolio .item p{
+    margin-right: 20px;
+    font-size: 1.4rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 500;
+}
+#portofolio .item .svg{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2a579f;
+    border-radius: 50%;
+}
+#Contact {
+    
+    margin-top: 100px;
+
+}
+#Contact .container{
+    border: 1px solid;
+    margin: 100px auto;
+    height: 60vh;
+    background: #5e8fdf;
+    border-radius: 50px;
+}
+.content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 700;
+    color: #fff;
+
+}
+#Contact h3{
+    text-align: center;
+    margin: 10px auto;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+#Contact .socmed {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.socmed ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 2.4rem;
+}
+.socmed ul li {
+    position: relative;
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 35px;
+    background: rgba(0,0,0,0.6);
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.socmed ul li:hover{
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+    
+}
+.socmed ul li i{
+    position: relative;
+    color: #fff;
+    z-index: 10;
+}
+.socmed ul li::before{
+    content: " ";
+    position: absolute;
+    height: 140%;
+    width: 25px;
+    background: #2a579f;
+    animation: animate 4s linear infinite;
+}
+.socmed ul li::after{
+    content : '';
+    position: absolute;
+    inset : 2px ;
+    background: #0e1538;
+    border-radius: 10px;
+}
+#two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+}
+footer {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    
+    color: #2a579f;
+}
+@keyframes animate 
+{
+    0% {
+        transform: rotate(0deg);
+    }  
+    100% {
+        transform: rotate(360deg);
+    }  
+}
+@media screen and (max-width: 768px) {
+    
+    .navbar-nav {
+        text-align: right;
+        
+    }
+    .left .container h1{
+        font-size: 1.6rem;
+    }
+    .container.section{
+        margin-top: 5px;
+    }
+    .pic img, .pic svg {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #portofolio .col-lg-5{
+        display: flex;
+        
+
+    }
+    #portofolio .left-p .item {
+        display: flex;
+        margin-left: 50px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    #portofolio .right-p .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #portofolio .mid .line{
+        
+        display: none;
+    }
+    #portofolio .mid .round{
+        display: none;
+    }
+}
+@keyframes mymove {
+    100% {transform: rotate(360deg);}
+  }

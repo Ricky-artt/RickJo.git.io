@@ -1,1 +1,2 @@
-# RickJo.git.io
+# RickyJonathan.github.io
+My Personal Website
